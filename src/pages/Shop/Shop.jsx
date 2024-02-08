@@ -2,7 +2,7 @@ import React from 'react'
 
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div className='Shop flex justify-center items-center min-h-screen'>Shop</div>
   )
 }
 
