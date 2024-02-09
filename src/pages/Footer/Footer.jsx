@@ -4,14 +4,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 py-8">
-      <div className="container mx-auto text-center">
-        <h2 className="text-white text-2xl font-bold mb-4">Contact Us</h2>
-        <p className="text-gray-400 mb-2">123 Street Name, City, Country</p>
-        <p className="text-gray-400 mb-2">Phone: +123 456 7890</p>
-        <p className="text-gray-400 mb-2">Email: info@example.com</p>
+    <footer className=" bg-white py-8">
+      <div className="container mx-auto text-center grid md:grid-cols-2 grid-cols-1">
+        <h2 className="text-black text-2xl font-bold mb-4">Relo</h2>
+        <p className="text-gray-600 mb-2">London, United Kingdom</p>
+        <p className="text-gray-600 mb-2">Phone: +123 456 7890</p>
+        <p className="text-gray-600 mb-2">Email: info@example.com</p>
         <div className="flex justify-center space-x-4 mt-6">
-          <a href="#" className="text-gray-400 hover:text-white">
+          <a href="#" className="text-gray-600 hover:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -27,7 +27,7 @@ const Footer = () => {
               />
             </svg>
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
+          <a href="#" className="text-gray-600 hover:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -43,7 +43,7 @@ const Footer = () => {
               />
             </svg>
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
+          <a href="#" className="text-gray-600 hover:text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
