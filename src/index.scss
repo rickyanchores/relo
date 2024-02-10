@@ -5,7 +5,7 @@
 //COLOR PALETTE
 $mainBg: black;
 $primary: coral;
-$secondary: #333;
+$secondary: #2c2c2c;
 $text: white;
 
 
@@ -20,4 +20,8 @@ body{
   background: $mainBg;
   color: $text;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-container{
+  background: $secondary;
 }

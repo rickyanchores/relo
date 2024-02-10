@@ -12,7 +12,7 @@ const Home = () => {
             <p>Inspired by Semplice Design</p>
           </div>
         </div>
-        <img className='heroImage p-8' src="https://www.semplice.com/wp-content/uploads/2021/08/smartwatch-supply-store-bg-scaled.jpg" alt="imgHero" />
+        <img className='heroImage px-4' src="https://www.semplice.com/wp-content/uploads/2021/08/smartwatch-supply-store-bg-scaled.jpg" alt="imgHero" />
     </div>
   )
 }
