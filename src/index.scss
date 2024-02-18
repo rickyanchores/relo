@@ -4,7 +4,7 @@
 
 //COLOR PALETTE
 $mainBg: black;
-$primary: coral;
+$primary: rgb(251, 90, 32);
 $secondary: #1b1b1b;
 $text: white;
 
@@ -28,4 +28,12 @@ body{
 
 .Gallery{
   background: $secondary;
+}
+
+.Testimonial{
+  background: $primary;
+  img{
+    width: 300px;
+    margin: auto;
+  }
 }

@@ -9,4 +9,4 @@ const Card = ({image,title}) => {
   )
 }
 
-export default Card
+export default Card;
