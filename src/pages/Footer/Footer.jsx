@@ -10,6 +10,8 @@ const Footer = () => {
         <p className="text-gray-600 mb-2">London, United Kingdom</p>
         <p className="text-gray-600 mb-2">Phone: +123 456 7890</p>
         <p className="text-gray-600 mb-2">Email: info@example.com</p>
+        <p className="text-gray-600 mb-2">Developed by: Ricky A</p>
+        <p className="text-gray-600 mb-2">Inspired by: semplice.com</p>
         <div className="flex justify-center space-x-4 mt-6">
           <a href="#" className="text-gray-600 hover:text-white">
             <svg

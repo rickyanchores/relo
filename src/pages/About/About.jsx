@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='About flex justify-center items-center'>
+    <div className='About flex justify-center items-center min-h-screen'>
       <div className="about-container mx-2 p-8 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="item-description">
           <h1 className="text-gray-500 font-bold border-b-2 border-gray-600 text-4xl">Item Description</h1>
@@ -22,11 +22,11 @@ All files include Photoshop masks (so you can paste your design with one click) 
           <div className="box-container">
             <div className="box mt-4">
                 <h2>Personal License</h2>
-                <button className='btn bg-orange-600 text-black font-mono px-8 mt-2'>BUY NOW $12</button>
+                <button className='btn bg-orange-600 text-black font-mono p-4 mt-2 animate-pulse'>BUY NOW $12</button>
               </div>
               <div className="box mt-4">
                 <h2>Commercial License</h2>
-                <button className='btn border-white border-2 text-white font-mono px-8 mt-2'>BUY NOW $12</button>
+                <button className='btn border-white border-2 text-white font-mono p-4 mt-2'>BUY NOW $12</button>
               </div>
           </div>
         </div>

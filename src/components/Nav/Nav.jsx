@@ -1,10 +1,8 @@
-// NavBar.js
-
 import React from 'react';
 
 const Nav = () => {
   return (
-    <nav className="bg-white p-4 m-4 rounded-md">
+    <nav className="Nav bg-white p-4 m-4 rounded-md sticky top-0 z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-black text-xl font-bold">RELO</div>
         <ul className="flex space-x-4">

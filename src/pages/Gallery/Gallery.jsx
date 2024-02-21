@@ -24,7 +24,7 @@ const Gallery = () => {
 
 
   return (
-    <div className='Gallery'>
+    <div className='Gallery flex justify-center items-center min-h-screen'>
       <div className="box-container p-8">
         <h1 className="text-gray-500 mb-8 font-bold border-t-2 border-gray-600 text-4xl">Includes the following 4 scenes</h1>
         <div className="gallery-container grid grid-cols-1 md:grid-cols-4 gap-4">
