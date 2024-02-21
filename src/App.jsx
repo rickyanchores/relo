@@ -8,6 +8,11 @@ import Testimonial from './components/Testimonial/Testimonial'
 import Banner from './components/Banner/Banner'
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 function App() {
   const [count, setCount] = useState(0)
 

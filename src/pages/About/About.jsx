@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className='About flex justify-center items-center min-h-screen' id="about">
-      <div className="about-container mx-2 p-8 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="about-container mx-2 p-8 grid grid-cols-1 md:grid-cols-2 gap-10" data-aos="fade-up" data-aos-duration="4000">
         <div className="item-description">
           <h1 className="text-gray-500 font-bold border-b-2 border-gray-600 text-4xl">Item Description</h1>
           <span></span>

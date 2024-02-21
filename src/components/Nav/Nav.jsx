@@ -22,7 +22,7 @@ const Nav = () => {
   ];
 
   return (
-    <nav className="Nav bg-white p-4 m-4 rounded-md sticky top-0 z-10">
+    <nav className="Nav bg-white p-4 m-4 rounded-md sticky top-0 z-10" data-aos="fade-up" data-aos-duration="8000">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-black text-xl font-bold">RELO</div>
         <ul className="NavLinks flex space-x-4">
